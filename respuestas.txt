@@ -1,4 +1,5 @@
 1. cat datos.txt | grep -i "juan"
 2. cat datos.txt | grep -i "Juanes" | awk -F',' '{print $4}'
 3. cat datos.txt | grep -i "PROG" | wc-l
-4. cat datos.txt | grep -w "^PROG$" | wc -l 
+4. cat datos.txt | grep -w "^PROG$" | wc -l
+5. cat datos.txt | grep '\.es' | cut -d',' -f2 | cut -d' ' -f1
